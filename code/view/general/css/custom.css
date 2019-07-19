@@ -30,7 +30,7 @@ footer{
     font-weight: 500;
 }
 
-#ufrpe_symbol{
+.footer_el#ufrpe_symbol{
     bottom: -100px;
     width: 125px;
     height: 150px;

@@ -1,0 +1,39 @@
+/* Este é o css usado por qualquer página */
+
+div#firstFooterCol {
+    position: relative;
+    align-content: left;  
+}
+
+div#secondFooterCol{
+   
+    align-content: center;
+    position: relative;
+    text-decoration-color: whitesmoke;
+}
+
+div#thirdFooterCol{
+    position: relative;
+    align-content: right;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+
+}
+
+.big_title{
+    font: outline;
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+#ufrpe_symbol{
+    bottom: -100px;
+    width: 125px;
+    height: 150px;
+
+}
+

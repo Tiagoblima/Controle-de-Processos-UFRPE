@@ -1,0 +1,17 @@
+{
+  "name": "publicProcessTable",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+
+  "draw": 1,
+  "recordsTotal": 57,
+  "recordsFiltered": 57,
+  "data": {
+
+    "13123123": "13123123",
+    "64576645": "64576645"
+  }
+
+}

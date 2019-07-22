@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Visualização de Processos">
+    <meta name="author" content="Tiago de Lima">
 
    
     <!-- Bootstrap CSS -->
@@ -16,20 +18,29 @@
 
 <body>
 
-<header class="bg-primary text-center">
-  <nav class="navbar nav-dark bg-primary ">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Cadastrar Departamento</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Visualizar Processos</a>
-        </li>
-      </ul>
-    </nav>
+<header class="text-center">
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="http://www.ufrpe.br">UFRPE <img id="nav_brand" src="images/ufrpe_symbol.png"/></a>
+     
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../view/index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sessions/public/process.html">Visualizar Processos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cadastrar Departamento</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
 
 <div class="container-fluid">
@@ -40,7 +51,7 @@
 
         <div class="col-6 text-center row-sm">
             <br>
-            <div class="big_title text-primary">
+            <div class="big_title text-dark">
                 Acesse o <br>
                 Cadastro Interno <br>
                 de Processos
@@ -48,7 +59,7 @@
          </div>
 
         <div class="col-4">
-          <h3 class="text-primary row-sm">Login</h3>
+          <h3 class="text-dark row-sm">Login</h3>
             <form>
                 <div class="form-group">
                   <label for="login_email">E-mail: </label>
@@ -59,13 +70,13 @@
                   <label for="login_password">Senha: </label>
                   <input type="password" class="form-control" id="login_password" placeholder="Digite sua senha">
                 </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <button type="submit" class="btn btn-dark">Entrar</button>
               </form>
         </div>
     </div>
 </div>
 
-<footer class="page-footer bg-primary">
+<footer class="page-footer  bg-dark static-bottom">
     <div class="container-fluid" >
       <div class="row">
 
@@ -77,7 +88,7 @@
               <p>
                 <h1 class="center text-white text-fluid">Controle Interno <br> de Processos</h1>
                   <div class="row center">
-                    <h5 class="header col s12 light">Departamento vinculado UFRPE</h5>
+                    <h5 class="header col s12 light text-white">Departamento vinculado UFRPE</h5>
                   </div>
                 </p>
           </div>
@@ -89,7 +100,7 @@
       <br>
   </div>
   <div class="footer-copyright">
-    <div class="container">
+    <div class="container text-success">
         Projeto iniciado por <a class="text-white" href="https://bit.ly/2TPERZf">Master Programming SW</a>
     </div>
 </div>

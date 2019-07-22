@@ -30,10 +30,14 @@ footer{
     font-weight: 500;
 }
 
-.footer_el#ufrpe_symbol{
+.footer_el{
     bottom: -100px;
-    width: 125px;
+    width: 150px;
     height: 150px;
 
 }
 
+img#nav_brand{
+    width: 50px;
+    height: 50px;
+}

@@ -6,45 +6,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link type="text/css" rel="stylesheet" href="general/css/custom.css" media="screen,projection">
     <title>Controle de Processos</title>
   </head>
 
 <body>
 
-<div class="inline">
+<header class="bg-primary text-center">
+  <nav class="navbar nav-dark bg-primary ">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link text-white" href="#">Cadastrar Departamento</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cadastrar Departamento</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Visualizar Processos</a>
+          <a class="nav-link text-white" href="#">Visualizar Processos</a>
         </li>
       </ul>
-</div>
+    </nav>
+</header>
 
-<div class="container">
+<div class="container-fluid">
     <!-- Content here -->
     <br><br><br>
 
     <div class="row">
 
-        <div class="col-6">
+        <div class="col-6 text-center row-sm">
             <br>
-            <div class="big_title">
-
+            <div class="big_title text-primary">
                 Acesse o <br>
                 Cadastro Interno <br>
                 de Processos
             </div>
          </div>
 
-        <div class="col-6">
+        <div class="col-4">
+          <h3 class="text-primary row-sm">Login</h3>
             <form>
                 <div class="form-group">
                   <label for="login_email">E-mail: </label>
@@ -61,28 +65,37 @@
     </div>
 </div>
 
-<footer>
-    <div class="container">
+<footer class="page-footer bg-primary">
+    <div class="container-fluid" >
       <div class="row">
 
-          <div class="col-3">
-              <img id="ufrpe_symbol" class="footer_el" src="images/ufrpe_symbol.png" alt="ufrpe_symbol"/>
+          <div class="col-3" id="firstFooterCol">
+              <img id="ufrpe_symbol" class="footer_el img-fluid" src="images/ufrpe_symbol.png" alt="ufrpe_symbol"/>
           </div>
 
-          <div class="col-4" id="footertext">
-              <h1 class="header center white-grey-text">Controle Interno <br> de Processos</h1>
-              <div class="row center">
-                  <h5 class="header col s12 light">Departamento vinculado UFRPE</h5>
-              </div>
+          <div class="col-6 text-center " id="secondFooterCol">
+              <p>
+                <h1 class="center text-white text-fluid">Controle Interno <br> de Processos</h1>
+                  <div class="row center">
+                    <h5 class="header col s12 light">Departamento vinculado UFRPE</h5>
+                  </div>
+                </p>
           </div>
-
-          <div class="col-3">
-              <img id="mpgsoftware_symbol" src="images/mpgsoftware_symbol.png" alt="mpgsoftware_symbol"/>
+ 
+          <div class="col-3" id="thirdFooterCol">
+              <img id="mpgsoftware_symbol" class="footer_el img-fluid" src="images/mpgsoftware_symbol.png" alt="mpgsoftware_symbol"/>
           </div>
       </div>
       <br>
   </div>
+  <div class="footer-copyright">
+    <div class="container">
+        Projeto iniciado por <a class="text-white" href="https://bit.ly/2TPERZf">Master Programming SW</a>
+    </div>
+</div>
+
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

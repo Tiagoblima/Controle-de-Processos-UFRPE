@@ -1,0 +1,38 @@
+{
+  "name": "alertTable",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+
+  "draw": 1,
+  "recordsTotal": 57,
+  "recordsFiltered": 57,
+  "data": [
+    [
+      "Maria Catarina da Silva",
+      "Jorge Araújo Oliveira",
+      "12/12/2018",
+      "Cristina Andrade de Lima"
+    ],
+    [
+      "Letícia Ferreira Costa",
+      "Pedro Antônio Lapa",
+      "22/11/2018",
+      "Ignaldo Ferreira"
+    ],
+    [
+      "Bruna Larissa Borba",
+      "Roberto Barbosa Castro",
+      "08/12/2009",
+      "Fernanda Maria Tereza"
+    ]
+  ]
+
+
+}
+
+
+
+
+

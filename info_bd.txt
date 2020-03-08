@@ -1,0 +1,21 @@
+Banco de dados Remoto 
+
+--> Feito por Gabriel
+
+HOST -> remote.mysql.com
+
+USER-> 79lbolH3l6
+
+PASSWORD-> EnmmIF7oAI
+
+DATABASE -> 79lbolH3l6
+
+--> Feito pela equipe de Banco de Dados
+
+HOST -> remote.mysql.com
+
+USER-> zFG2rQJeB5
+
+PASSWORD-> Xspk7HgypO
+
+DATABASE ->zFG2rQJeB5

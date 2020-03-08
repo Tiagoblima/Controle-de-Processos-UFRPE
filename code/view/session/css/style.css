@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.big_title {
+    color: #1e0482;
+}
+
+#emailHelp {
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    color: gainsboro;
+    animation: bounce 1s;
+}
+
+img#ufrpe_symbol{
+    width: 200px;
+    height: 200px;
+}
+
+img#mpgsoftware_symbol{
+    width: 500px;
+    height: 250px;
+}
+
+#footertext{
+    position: relative;
+    display: inline;
+    align-content: center;
+    top: 100px;
+    left: 50px;
+}
+
+#process_form {
+    alignment: center;
+    position: relative;
+
+
+}
+
+iframe{
+    display: inline-block;
+}
+.page-footer{
+    background-color:  #1a237e;
+}
+.alert{
+    font-size: 14px;
+}
+
+
+
+.btn_form{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+
+}
+.footer_el {
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+    align-self: center;
+}
+.form{
+    display: inline-block;
+    alignment: center;
+}
+
+.row{
+
+    display: inline;
+}
+
+.label-icon {
+    font-size: 16px;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+.msg {
+  width:100%;
+  padding:10px;
+  margin-top: 20px;
+  color: grey;
+  font-size : 20px;
+  border: 3px;
+  border-color: gray;
+}
+.msg-error {
+  // rouge
+  border-color: #d32f2f;
+  background-color: #ef5350;
+  color: white;
+}
+.msg-alert {
+  //orange
+   border-color: #ef6c00;
+  background-color: #ff9800;
+  color: white;
+}
+
+.msg-info{
+  border-color: #0288d1;
+  background-color: #29b6f6;
+  color: white;
+}
